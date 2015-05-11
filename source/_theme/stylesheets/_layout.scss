@@ -1,0 +1,48 @@
+@include border-box-sizing;
+
+body {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.page-header {
+	@include container;
+	position: relative;
+
+	.page-header__logo {
+		@include span(2);
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+
+	.page-header__nav {
+		padding-top: 10px;
+		@include span(10 last); 
+	}
+}
+
+
+.article {
+	.article__body {
+		@include container;
+		padding: 0 20px;
+
+
+		@include breakpoint($big) {
+			padding: 0;
+		}
+	}
+}
+
+
+
+.page-main {
+
+	// outline: 1px dashed blue;
+
+}
+
+
+

@@ -1,0 +1,14 @@
+{
+  "name": "Gulp",
+  "version": "0.0.2",
+  "author": "Charlie",
+  "description": "NPM install and config file",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-sass": "^2.0.0"
+  }
+}

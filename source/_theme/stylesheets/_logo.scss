@@ -1,0 +1,43 @@
+.c-logo {
+	text-transform: uppercase;
+	z-index: 1000;
+
+	svg * {
+		fill: #fff;
+	}
+
+
+	&.c-logo--small {
+
+		.c-logo__text {
+			background-color: #000;
+			color: #fff;
+		  	padding: 10px 10px;
+		  	width: 100px;
+		  	text-align: center;
+		  	margin: 0;
+		  	// padding-top: 30px;
+		  	font-size: 300%;
+
+
+		  	@include breakpoint($medium) {
+		  		// font-size: 400%;
+		  	}
+		}
+
+		.small {
+			display: inline;
+		}
+
+		.large {
+			display: none;
+		}
+	}
+
+
+	&.c-logo--large {
+
+	}
+
+}
+

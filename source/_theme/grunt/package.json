@@ -1,0 +1,32 @@
+{
+  "name": "sonniesedge",
+  "version": "0.0.2",
+  "author": "Charlie",
+  "description": "NPM install and config file",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.2",
+    "grunt-autoprefixer": "^2.2.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-imagemin": "^0.9.4",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-criticalcss": "^0.4.1",
+    "grunt-file-info": "^1.0.8",
+    "grunt-inlinestyles": "0.0.1",
+    "grunt-jekyll": "^0.4.2",
+    "grunt-pagespeed": "^0.3.0",
+    "grunt-sass": "^0.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "grunt-hologram": "0.0.4"
+  },
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  }
+}

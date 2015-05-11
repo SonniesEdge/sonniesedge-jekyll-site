@@ -1,0 +1,11 @@
+$medium: 500px;
+$big: 1120px;
+
+$susy: (
+	columns: 12,
+	container: $big,
+	global-box-sizing: border-box 
+);
+
+$base-font-size:   16px;
+$spacing-unit:     30px;
