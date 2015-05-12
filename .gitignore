@@ -1,12 +1,6 @@
+.DS_Store
 _build
 bower_components
-
-
-.DS_Store
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
-
-
-# Dependency directory
 node_modules
 bower_components

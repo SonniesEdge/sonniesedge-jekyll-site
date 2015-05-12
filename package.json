@@ -5,6 +5,7 @@
   "description": "NPM install and config file",
   "private": true,
   "devDependencies": {
+    "browser-sync": "^2.7.1",
     "grunt": "^0.4.2",
     "grunt-autoprefixer": "^2.2.0",
     "grunt-contrib-copy": "^0.5.0",
@@ -18,15 +19,16 @@
     "grunt-inlinestyles": "0.0.1",
     "grunt-jekyll": "^0.4.2",
     "grunt-pagespeed": "^0.3.0",
-    "grunt-sass": "^0.14.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "grunt-hologram": "0.0.4"
+    "grunt-sass": "^0.14.1",
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-sass": "^2.0.0",
+    "gulp-watch": "^4.2.4"
   },
   "scripts": {
     "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  },
+  "dependencies": {
+    "grunt-hologram": "0.0.4"
   }
 }
