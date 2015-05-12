@@ -82,29 +82,15 @@ function main {
     fi
 
     # Install npm modules
-    cd $GRUNT_DIR
     npm install >/dev/null
     if [ $? -eq 0 ]; then
-        echo "Installed Grunt npm modules"
+        echo "Installed npm modules"
     else
-        echo "Could not install Gulp npm modules"
+        echo "Could not install npm modules"
         return 1
     fi
-    cd ../
-
-    # Install npm modules
-    cd $GULP_DIR
-    npm install >/dev/null
-    if [ $? -eq 0 ]; then
-        echo "Installed Gulp npm modules"
-    else
-        echo "Could not install Gulp npm modules"
-        return 1
-    fi
-    cd ../
 
     # Install bower components
-    cd $BOWER_DIR
     bower install >/dev/null
     if [ $? -eq 0 ]; then
         echo "Installed Bower components"
@@ -112,7 +98,6 @@ function main {
         echo "Could not install Bower components"
         return 1
     fi
-    cd ../
 
 }
 
