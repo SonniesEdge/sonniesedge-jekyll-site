@@ -10,8 +10,7 @@
 		margin: 0;
 		justify-content: flex-end;
 		align-items: flex-end;
-
-			height: 0;
+		// height: 0;
 
 		@include breakpoint($big) {
 			height: 86px;

@@ -11,15 +11,23 @@ body {
 	position: relative;
 
 	.page-header__logo {
-		@include span(2);
-		padding-top: 10px;
-		padding-bottom: 10px;
+		display: none;
+
+		@include breakpoint($medium) {
+			@include span(2);
+			display: block;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
 
 	}
 
 	.page-header__nav {
-		padding-top: 10px;
-		@include span(10 last); 
+
+		@include breakpoint($medium) {
+			// padding-top: 10px;
+			@include span(10 last); 
+		}
 	}
 }
 

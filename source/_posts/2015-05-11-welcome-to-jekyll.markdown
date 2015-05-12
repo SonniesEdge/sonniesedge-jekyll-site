@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to the ancient evil known as Jekyll"
 date:   2015-05-11 11:00:16
 categories: jekyll update
 ---
