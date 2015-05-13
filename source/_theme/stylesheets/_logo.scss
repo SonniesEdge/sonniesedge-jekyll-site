@@ -2,6 +2,10 @@
 	text-transform: uppercase;
 	z-index: 1000;
 
+	a {
+		text-decoration: none;
+	}
+
 	svg * {
 		fill: #fff;
 	}

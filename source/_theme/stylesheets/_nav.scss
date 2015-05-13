@@ -1,39 +1,59 @@
+$nav-height: 86px;
+
 .c-menu {
 	// outline: 1px dashed purple;
 
 
-
 	.c-menu__items {
+		
 		list-style-type: none;
-		padding: 0;
-		display: flex;
-		margin: 0;
-		justify-content: flex-end;
-		align-items: flex-end;
-		// height: 0;
+		padding: 10px $spacing-unit;
+
+
+		@include breakpoint($small) {
+			list-style-type: none;
+			padding: 0;
+			display: flex;
+			margin: 0;
+			justify-content: flex-end;
+			align-items: flex-end;
+			height: 0;
+
+			&.show {
+				height: $nav-height;
+			}
+		}
 
 		@include breakpoint($big) {
-			height: 86px;
+			height: $nav-height;
 		}
 	}
 
 	.c-menu__item {
-		flex-grow: 1;
-		text-align: center;
+		display: block;
+		padding-bottom: $spacing-unit / 3;
 
-		a {
-			padding: 50px 5px 10px 5px;
-			background-color: #fff;
-			display: block;
-			text-decoration: none;
-			color: #000;
-			border-bottom: 4px solid #fff;
-			font-size: 120%;
+		@include breakpoint($small) {
+			padding: 0;
+			flex-grow: 1;
+			text-align: center;
 
-			&:hover {
-				color: #333;
-				border-bottom-color: #000;
+			a {
+				padding: 50px 5px 10px 5px;
+				background-color: #fff;
+				display: block;
+				text-decoration: none;
+				color: #000;
+				border-bottom: 4px solid #fff;
+				font-size: 120%;
+
+				&:hover {
+					color: #333;
+					border-bottom-color: #000;
+				}
 			}
 		}
+
+		
 	}
 }

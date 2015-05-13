@@ -1,0 +1,25 @@
+.list {
+    padding: 0;
+
+    .list-item {
+        margin-bottom: $spacing-unit;
+        background-color: #FAFAFA;
+        list-style-type: none;
+
+
+        .list-item__link {
+            padding: $spacing-unit;
+            display: block;
+        }
+
+        .list-item__title {
+            margin-bottom: 0;
+        }
+
+        .list-item__strapline {
+            margin-bottom: 0;
+        }
+
+    }
+
+}

@@ -1,0 +1,5 @@
+.basic__header {
+    @include breakpoint($small) {
+        @include container;
+    }
+}
