@@ -1,0 +1,98 @@
+.article__header {
+
+
+
+
+    @include breakpoint($small) {
+        background-image: url('http://media.backpacker.com/wp-content/uploads/2014/11/AmericanWild_mcgownPeak_Howard_1400x400.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+                // filter: brightness(80%);
+        position: relative;
+        margin-bottom: $spacing-unit;
+        background-color: #000;
+        min-height: 10em;
+    }
+    
+
+    @include breakpoint($medium) {
+        min-height: 20em;
+    }
+
+    @include breakpoint($medium) {
+        min-height: 30em;
+    }
+
+    .article__title {
+        @include breakpoint($small) {
+            padding: 0 20px;
+            text-align: center;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+
+        @include breakpoint($medium) {
+
+            font-size: 240%;
+            padding: 0 40px;
+        }
+
+        @include breakpoint($big) {
+            font-size: 500%;
+        }
+    }
+
+    .article__wrapper {
+
+        @include breakpoint($small) {
+            @include container;
+            width: 100%;
+        }
+
+        @include breakpoint($medium) {
+
+        }
+
+        @include breakpoint($medium) {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            margin-bottom: 0;
+        }
+    }
+
+    .article__meta {
+
+        @include breakpoint($small) {
+            padding: 0 20px;
+        }
+
+        @include breakpoint($medium) {
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    .article__image {
+
+        display: none;
+
+        @include breakpoint($small) {
+            width: 100%;
+            margin-bottom: 24px;
+            height: auto;
+            display: block;
+        }
+
+
+        @include breakpoint($medium) {
+            position: absolute;
+            margin-bottom: 0;
+        }
+
+    }
+
+
+}

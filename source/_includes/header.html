@@ -1,23 +1,19 @@
-  <img class="page__image" src="/bg.png" width="1200" height="400">
-
 
   <header class="page-header">
-
-    <nav class="page-header__nav c-menu page-nav">
+    <div class="page-header__logo c-logo c-logo--small">
+      <a href="/">
+      <h1 class="c-logo__text">
+      <span class="small">S</span><span class="large">onni</span><span class="small">e</span><span class="large">sedge</span>
+      </h1>
+      </a>
+    </div>
+    <nav class="page-header__nav c-menu page-nav" id="mainnav">
       <h2 class="off-screen">Navigation</h2>
       <ul class="c-menu__items">
-        <li class="c-menu__item"><a href="/">Home</a></li>
         <li class="c-menu__item"><a href="/about">About</a></li>
         <li class="c-menu__item"><a href="/blog">Blog</a></li>
         <li class="c-menu__item"><a href="#">Interesting</a></li>
         <li class="c-menu__item"><a href="#">Contact</a></li>
       </ul>
     </nav>
-
-    <div class="page-header__wrapper">
-      <h1 class="page-header__title">{{ page.title }}</h1>
-      <p class="page-header__meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-    </div>
-
-
   </header>
