@@ -1,14 +1,13 @@
 ---
 layout: default
+title: Blog posts
+permalink: /blog/
+
 ---
 
-<article class="basic">
+<article class="article">
 
-  <header class="basic__header">
-    <h1 class="basic__title">Posts</h1>
-  </header>
-
-  <div class="basic__body">
+  <div class="article__body">
     <ul class="list page-list">
       {% for post in site.posts %}
         <li class="list-item">

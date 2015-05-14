@@ -8,12 +8,21 @@
     {% include header.html %}
 
       <main class="page-main">
+        <div id="burger" class="c-menu__toggle" style="">Menu</div>
         {{ content }}
       </div>
 
 
     {% include footer.html %}
-
+    <script>
+        var burger = document.getElementById('burger');
+        var mainnav = document.getElementById('mainnav');
+        function toggleClass(e) {
+            console.log('clickity click');
+            mainnav.classList.toggle('is-active');
+        } 
+        burger.addEventListener("click", toggleClass, false);
+    </script>
   </body>
 
 </html>

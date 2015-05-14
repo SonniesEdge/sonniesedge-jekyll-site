@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Workking with Jekyll and the asset pipeline"
+title:  "Working with Jekyll and the asset pipeline"
 date:   2013-10-08 11:00:16
 categories: jekyll update
 ---
