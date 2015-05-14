@@ -79,6 +79,6 @@ body {
 .page-footer {
 	@include breakpoint($small) {
 		min-height: 15em;
-		background-color: #333;
+		// background-color: #333;
 	}
 }
