@@ -1,9 +1,13 @@
 .c-logo {
-	text-transform: uppercase;
-	z-index: 1000;
+	@include breakpoint($small) {
+		text-transform: uppercase;
+		z-index: 1000;
+	}
 
 	a {
-		text-decoration: none;
+		@include breakpoint($small) {
+			text-decoration: none;
+		}
 	}
 
 	svg * {
@@ -14,27 +18,28 @@
 	&.c-logo--small {
 
 		.c-logo__text {
-			background-color: #000;
-			color: #fff;
-		  	padding: 10px 10px;
-		  	max-width: 100px;
-		  	text-align: center;
-		  	margin: 0;
-		  	// padding-top: 30px;
-		  	font-size: 300%;
-
-
-		  	@include breakpoint($medium) {
-		  		// font-size: 400%;
-		  	}
+			@include breakpoint($small) {
+				background-color: #000;
+				color: #fff;
+				padding: 10px 10px;
+				max-width: 100px;
+				text-align: center;
+				margin: 0;
+				// padding-top: 30px;
+				font-size: 300%;
+			}
 		}
 
 		.small {
-			display: inline;
+			@include breakpoint($small) {
+				display: inline;
+			}
 		}
 
 		.large {
-			display: none;
+			@include breakpoint($small) {
+				display: none;
+			}
 		}
 	}
 

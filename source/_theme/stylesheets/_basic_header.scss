@@ -1,5 +1,30 @@
 .basic__header {
     @include breakpoint($small) {
-        @include container;
+        // @include container;
+        background-color: #933F3F;
+        background-image: url('/bg2.png');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 12em;
+    }
+
+    .basic__title {
+        @include breakpoint($small) {
+            position: absolute;
+            left: 50%;
+            top: 14%;
+            transform: translate(-50%,-50%);
+            margin-bottom: 0;
+            color: #fff;
+        }
+    }
+}
+
+
+
+.basic__body {
+    @include breakpoint($small) {
+        margin-top: $spacing-unit;
     }
 }
