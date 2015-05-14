@@ -1,14 +1,10 @@
 .article__header {
 
-
-
-
     @include breakpoint($small) {
         background-image: url('http://media.backpacker.com/wp-content/uploads/2014/11/AmericanWild_mcgownPeak_Howard_1400x400.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-                // filter: brightness(80%);
         position: relative;
         margin-bottom: $spacing-unit;
         background-color: #000;
@@ -20,13 +16,14 @@
         min-height: 20em;
     }
 
-    @include breakpoint($medium) {
+    @include breakpoint($big) {
         min-height: 30em;
     }
 
     .article__title {
         @include breakpoint($small) {
             padding: 0 20px;
+            padding-top: 2em;
             text-align: center;
             text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
             color: #fff;
