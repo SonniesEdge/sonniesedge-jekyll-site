@@ -10,17 +10,14 @@ image: http://people.umass.edu/latour/Germany/ljennings/Berrlin-Map-2007large.jp
   <div class="article__body">
 
 
-    <ul class="list page-list">
-      {% for post in site.posts %}
-        <li class="list-item">
-        <a class="list-item__link" href="{{ post.url | prepend: site.baseurl }}">
-
-          <h2 class="list-item__title">{{ post.title }}</h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          </a>
-        </li>
-      {% endfor %}
+    {% for post in site.posts %}
+  <div class="post">
+    <h2 class="post__title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>    
+    <div class="post__summary"><p>You've never noticed the food at tech events. Not unless you've got some kind of dietary restriction.</p>
+    </div>
+    <div class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+  </div>
+  {% endfor %} %}
     </ul>
 
 

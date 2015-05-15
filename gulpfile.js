@@ -52,8 +52,8 @@ gulp.task('browser-sync', ['jekyll-rebuild','sass'], function() {
 
 // Watch for changes
 gulp.task('watch', ['browser-sync'], function () {
-    gulp.watch(['source/*.html'], ['sass-rebuild']);
-    gulp.watch(['source/*.md','source/_theme/stylesheets/*.scss'], ['sass']);
+    gulp.watch(['source/*/*.html'], ['sass-rebuild']);
+    gulp.watch(['source/*/*.md','source/_theme/stylesheets/*.scss'], ['sass']);
 })
 
 

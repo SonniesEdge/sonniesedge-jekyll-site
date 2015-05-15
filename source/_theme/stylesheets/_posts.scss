@@ -1,0 +1,18 @@
+.post {
+  margin-bottom: $spacing-unit;
+  border-bottom: 1px solid #dcdcdc;
+  padding-bottom: $spacing-unit;
+  .post__title {
+    margin-bottom: 0;
+  }
+  .post__meta {
+    color: #dcdcdc;
+    img {
+      float: left;
+      width: $spacing-unit;
+      border-radius: 50%;
+      margin-right: $spacing-unit;
+    }
+  }
+
+}
