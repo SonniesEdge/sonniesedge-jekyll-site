@@ -1,13 +1,15 @@
 ---
-layout: default
+layout: page
 title: Blog posts
 permalink: /blog/
-
+inverse: false
+image: http://people.umass.edu/latour/Germany/ljennings/Berrlin-Map-2007large.jpg
 ---
 
-<article class="article">
 
   <div class="article__body">
+
+
     <ul class="list page-list">
       {% for post in site.posts %}
         <li class="list-item">
@@ -20,7 +22,7 @@ permalink: /blog/
         </li>
       {% endfor %}
     </ul>
+
+
   </div>
 
-
-</article>

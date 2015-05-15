@@ -2,10 +2,9 @@
 layout: default
 ---
 
-
 <article class="basic">
 
-  <header class="basic__header">
+  <header class="basic__header" {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
     <h1 class="basic__title">{{ page.title }}</h1>
   </header>
 

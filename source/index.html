@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Hey there
+
+image: http://travelnoire.com/wp-content/uploads/2013/10/berlin1.jpg
 ---
 
 <article class="basic">
 
-  <header class="basic__header">
+  <header class="basic__header" {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
     <h1 class="basic__title">{{ page.title }}</h1>
   </header>
 
@@ -21,7 +23,7 @@ title: Hey there
 
 
     <div class="front2">
-    <p>I'm Charlie (aka sonniesedge), front-end web developer, currently working at the BBC in London.</p>
+    <p class="lead">I'm Charlie (aka sonniesedge), front-end web developer, currently working at the BBC in London.</p>
 
     <p><strike>I'm passionate about</strike> - wait, I despise that phrase - really, REALLY, good at frontend processes and architecture, delivering a consistent experience to all types and sizes of devices, and making sites easy to use.</p>
 

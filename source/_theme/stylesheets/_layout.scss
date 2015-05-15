@@ -85,20 +85,31 @@ body {
 
 
 .front-page {
-@include container;
-width: 75%;
-
-.front1 {
-	@include span(3); 
-
-	img {
-		border-radius: 50%;
-		width: 100%;
-		height: auto;
+	@include breakpoint($medium) {
+		@include container;
+		// width: 80%;
 	}
-}
 
-.front2 {
-	@include span(8 last); 
-}
+	.front1 {
+
+		@include breakpoint($small $medium) {
+			display: none;
+		}
+
+		@include breakpoint($medium) {
+			@include span(3); 
+		}
+
+		img {
+			border-radius: 50%;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.front2 {
+		@include breakpoint($medium) {
+			@include span(9 last); 
+		}
+	}
 }

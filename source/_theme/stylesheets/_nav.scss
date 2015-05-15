@@ -44,18 +44,20 @@ $nav-height: 86px;
 		@include breakpoint($small $medium) {
 			height: auto;
 			opacity: 1;
-			background-color: #333;
+			background-color: rgba(0, 0, 0, 0.8);
 			border: 2px solid #fff;
 			width: 96%;
 			margin: 0 auto;
+			@include bounceIn();
 		}
 
 		.c-menu__item a {
 			@include breakpoint($small $medium) {
-				padding: 20px;
+				padding: $spacing-unit / 3;
 
 				&:hover {
-					background-color: pink;
+					background-color: #333;
+					color: #fff;
 				}
 			}
 		}
@@ -65,15 +67,12 @@ $nav-height: 86px;
 		@include breakpoint($small) {
 			display: block;
 			padding-bottom: $spacing-unit / 3;
-		}
-
-		@include breakpoint($small) {
 			padding: 0;
 			flex-grow: 1;
 			text-align: center;
 
 			a {
-				padding: 50px 5px 10px 5px;
+				padding: 5px 5px 10px 5px;
 				display: block;
 				text-decoration: none;
 				color: #fff;
@@ -111,3 +110,27 @@ $nav-height: 86px;
 		}
 	}
 }
+
+.inverse {
+	.c-menu__items {
+		border-color: #000;
+	}
+
+	.c-menu__toggle {
+		@include breakpoint($small) {
+			button {
+				border-color: #000;
+			}
+		}
+	}
+
+	.c-menu__item a {
+		@include breakpoint($small) {
+			color: #000;
+
+			&:hover {
+				color: #333;
+			}
+		}
+	}
+} 

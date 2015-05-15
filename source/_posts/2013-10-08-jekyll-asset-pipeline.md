@@ -3,6 +3,8 @@ layout: post
 title:  "Working with Jekyll and the asset pipeline"
 date:   2013-10-08 11:00:16
 categories: jekyll update
+image: http://media.backpacker.com/wp-content/uploads/2014/11/AmericanWild_mcgownPeak_Howard_1400x400.jpg
+inverse: false
 ---
 
 

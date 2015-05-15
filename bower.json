@@ -23,6 +23,7 @@
     "jquery": "~2.1.1",
     "Chart.js": "~0.2.0",
     "susy": "~2.2.3",
-    "breakpoint-sass": "~2.5.0"
+    "breakpoint-sass": "~2.5.0",
+    "geoffgraham.animate.scss": "*"
   }
 }

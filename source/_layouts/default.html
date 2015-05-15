@@ -3,8 +3,8 @@
 
   {% include head.html %}
 
-  <body>
-
+  <body {% if page.inverse %} class="inverse" {% endif %}>
+  
     {% include header.html %}
 
       <main class="page-main">

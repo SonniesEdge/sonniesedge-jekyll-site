@@ -1,22 +1,33 @@
 .basic__header {
     @include breakpoint($small) {
         // @include container;
-        background-color: #933F3F;
-        background-image: url('/assets/bg2.png');
+        // background-color: #333;
+        // background-image: url('/assets/bg2.png');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        min-height: 12em;
+        min-height: 10em;
     }
 
     .basic__title {
         @include breakpoint($small) {
-            position: absolute;
-            left: 50%;
-            top: 4em;
-            transform: translate(-50%,-50%);
-            margin-bottom: 0;
+            // position: absolute;
+            // left: 50%;
+            // top: 4em;
+            // transform: translate(-50%,-50%);
+            // margin-bottom: 0;
             color: #fff;
+
+            @include container;
+            padding-top: 3em;
+            padding-left: $spacing-unit;
+            padding-right: $spacing-unit;
+        }
+    }
+
+    .inverse & .basic__title {
+        @include breakpoint($small) {
+            color: #000;
         }
     }
 }

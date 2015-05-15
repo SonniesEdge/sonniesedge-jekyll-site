@@ -1,8 +1,9 @@
+.basic, 
 .article {
-	p, ul, ol {
+
 		line-height: 1.8;
 		font-size: 120%;
-	}
+	
 }
 
 
@@ -32,4 +33,8 @@ p, blockquote, pre,
 ul, ol, dl, figure, .highlight, 
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+}
+
+.lead {
+  font-size: 140%;
 }
