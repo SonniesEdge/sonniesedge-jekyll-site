@@ -1,19 +1,10 @@
 ---
-layout: default
-title: Hey there
+layout: page
+title: I tried to be professional once
 
 image: http://travelnoire.com/wp-content/uploads/2013/10/berlin1.jpg
 ---
 
-<article class="basic">
-
-  <header class="basic__header" {% if page.image %}style="background-image: url({{ page.image }});"{% endif %}>
-    <h1 class="basic__title">{{ page.title }}</h1>
-  </header>
-
-
-
-  <div class="basic__body">
 
 
   <div class="front-page">
@@ -43,26 +34,5 @@ image: http://travelnoire.com/wp-content/uploads/2013/10/berlin1.jpg
 
   </div>
 
-
-
-
-<!-- 
-    <ul class="list page-list">
-      {% for post in site.posts %}
-        <li class="list-item">
-        <a class="list-item__link" href="{{ post.url | prepend: site.baseurl }}">
-
-          <h2 class="list-item__title">{{ post.title }}</h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
- -->
-
   </div>
 
-
-
-</article>
