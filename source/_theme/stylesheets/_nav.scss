@@ -31,10 +31,12 @@ $nav-height: 86px;
 			height: $nav-height;
 			opacity: 1;
 			margin: 0 $spacing-unit;
+			letter-spacing: 2px;
 		}
 
 		@include breakpoint($big) {
 			margin: 0;
+			letter-spacing: 4px;
 		}
 
 
