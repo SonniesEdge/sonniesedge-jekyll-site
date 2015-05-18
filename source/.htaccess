@@ -1,0 +1,14 @@
+
+Redirect 301 2013-10-03/frontend-tickets.html /blog/categorising-ticket-severity-frontend-work/
+Redirect 301 2013-10-04/jekyll.html /blog/jekyll/
+Redirect 301 2013-10-08/jekyll-assets.html /blog/working-jekyll-and-asset-pipeline/
+Redirect 301 2013-11-15/osx.html /blog/setting-new-os-x-machine/
+Redirect 301 2014-09-06/bypassing-jekyll-delays.html /blog/bypassing-jekyll-your-grunt-tasks/
+Redirect 301 2014-09-09/bootstrap-verbosity.html /blog/bootstrap-verbosity-and-mysterious-ie-problems/
+Redirect 301 2014-09-25/bootstrap-on-a-large-site.html /blog/using-bootstrap-large-site/
+Redirect 301 2014-09-30/libsass.html /blog/using-libsass-library/
+Redirect 301 2014-10-17/visual-regression-testing.html /blog/visual-regression-testing/
+Redirect 301 2014-10-27/critical-css.html /blog/inlining-critical-css/
+Redirect 301 2014-10-28/site.html /blog/making-site-open/
+Redirect 301 2014-11-05/criticalpath-fallback.html /blog/providing-fallback-criticalpath-css/
+Redirect 301 2014-11-24/sitepoint.html /blog/writing-sitepoint/
