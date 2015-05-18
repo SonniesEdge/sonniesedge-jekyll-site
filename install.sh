@@ -48,12 +48,21 @@ function checks {
         FAILURE=0
     fi
 
-    # check for bower
+    # check for grunt
     grunt --version &>/dev/null
     if [ $? -eq 0 ]; then
         echo "Found Grunt"
     else
         echo "Could not find Grunt CLI"
+        FAILURE=0
+    fi
+
+    # check for imagemagick
+    convert --version &>/dev/null
+    if [ $? -eq 0 ]; then
+        echo "Found imagemagick"
+    else
+        echo "Could not find imagemagick"
         FAILURE=0
     fi
 
@@ -110,5 +119,5 @@ if [ $? -eq 0 ]; then
     main
 else 
     echo ' '
-    echo "Checks failed. :("
+    echo "Prerequisite checks failed. :("
 fi
