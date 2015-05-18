@@ -3,7 +3,8 @@ layout: post
 title:  "Visual Regression Testing"
 date:   2014-10-17 11:00:16
 categories: testing atomicdesign
-image: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+background_external: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+strapline: Visual Regression Testing becomes more important the more complex a project becomes.
 ---
 
 <h2>Why the hell do we need tests for CSS?</h2>

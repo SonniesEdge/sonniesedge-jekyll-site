@@ -3,7 +3,7 @@ var sass          = require('gulp-sass');
 var autoprefixer  = require('gulp-autoprefixer');
 var browserSync   = require('browser-sync');
 var cp            = require('child_process');
-var imageResize = require('gulp-image-resize');
+var imageResize   = require('gulp-image-resize');
 
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
@@ -27,7 +27,25 @@ gulp.task('images-bg', ['images-pages'], function () {
       format: 'jpg',
       upscale : true
     }))
-    .pipe(gulp.dest('_build/images/backgrounds/'));
+    .pipe(gulp.dest('_build/images/backgrounds/large/'))
+
+    .pipe(imageResize({ 
+      width : 1000,
+      height : 500,
+      crop : true,
+      format: 'jpg',
+      upscale : true
+    }))
+    .pipe(gulp.dest('_build/images/backgrounds/medium/'))
+
+    .pipe(imageResize({ 
+      width : 600,
+      height : 300,
+      crop : true,
+      format: 'jpg',
+      upscale : true
+    }))
+    .pipe(gulp.dest('_build/images/backgrounds/small/'))
 });
 
 gulp.task('images-pages', ['images-posts'], function () {
@@ -81,7 +99,7 @@ gulp.task('browser-sync', ['jekyll-rebuild','images-bg'], function() {
 // Watch for changes
 gulp.task('watch', ['browser-sync'], function () {
     gulp.watch(['source/**/*.html'], ['sass-rebuild']);
-    gulp.watch(['source/**/*.md','source/_theme/stylesheets/*.scss'], ['sass']);
+    gulp.watch(['source/**/*.md','source/_theme/stylesheets/*.scss'], ['sass-rebuild']);
 })
 
 

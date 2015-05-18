@@ -3,7 +3,8 @@ layout: post
 title:  "Categorising front end ticket severity"
 date:   2013-10-03 11:00:16
 categories: bootstrap sass ie
-image: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+background_external: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+strapline: Ticket severity seems to be orientated towards backend projects.
 ---
 
 I've had the pleasure of having an entire day having every developer on my team watch me mess up their lovely web appliciations. Developers aren't happy about this, I've found.

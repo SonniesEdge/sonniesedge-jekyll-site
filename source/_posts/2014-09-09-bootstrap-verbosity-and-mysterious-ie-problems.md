@@ -3,7 +3,8 @@ layout: post
 title:  "Bootstrap verbosity and mysterious IE problems"
 date:   2014-09-09 11:00:16
 categories: bootstrap sass ie
-image: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+background_external: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+strapline: Bootstrap? Verbose? Pull the other one. It has bells on it. 
 ---
 
 <p>Nobody can deny it. <a href="http://getbootstrap.com/">Bootstrap</a> is bloated. There's a good reason for that - it's the jack-of-all-trades, the swiss army knife, the (not so) little framework that could. If you want it to do something, then it probably can.</p>

@@ -3,7 +3,8 @@ layout: post
 title:  "Setting up an OS X machine"
 date:   2013-11-15 11:00:16
 categories: osx brew
-image: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+background_external: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+strapline: UNIX at the core of every machine.
 ---
 
 **UPDATED 2013-01-23: using virtual hosts and SSL certs.**

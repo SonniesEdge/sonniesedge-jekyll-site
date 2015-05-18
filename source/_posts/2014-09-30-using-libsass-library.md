@@ -3,7 +3,8 @@ layout: post
 title:  "Using libsass"
 date:   2014-09-30 11:00:16
 categories: sass libsass
-image: http://reagentx.net/new/wp-content/uploads/2012/07/photo-1.jpg
+background_external: http://reagentx.net/new/wp-content/uploads/2012/07/photo-1.jpg
+strapline: Sass is an essential part of any modern workflow, but the default compiler is let down by slow compilation times.
 ---
 
 

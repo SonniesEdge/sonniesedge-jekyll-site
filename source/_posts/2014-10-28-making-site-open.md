@@ -2,7 +2,8 @@
 layout: post
 title:  "Making this site open"
 date:   2014-10-28 11:00:16
-image: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+background_external: http://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/507898main_PIA04866-full_full.jpg?itok=-PEuatuS
+strapline: I'm such a generous soul.
 ---
 
 I remember what it was like when I was starting out with this web game. I didn't have a clue how to build things, how to write code, how to optimise. Like all of us, I was clueless. What got me rapidly going was being able to look at the code of other sites via dev tools, and see how they did things.

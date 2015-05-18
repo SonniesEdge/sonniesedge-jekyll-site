@@ -3,7 +3,8 @@ layout: post
 title:  "Food at tech events"
 date: 2014-12-09 11:00:16
 categories: food
-image: http://upload.wikimedia.org/wikipedia/commons/1/10/Hot_pizza.jpg
+background_external: http://upload.wikimedia.org/wikipedia/commons/1/10/Hot_pizza.jpg
+strapline: You've never noticed the food at tech events. Not unless you've got some kind of dietary restriction.
 ---
 
 You've never noticed the food at tech events.

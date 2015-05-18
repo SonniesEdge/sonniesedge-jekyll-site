@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Writing for sitepoint"
+title:  "Writing for sitepoint is a thing that I do now"
 date:   2014-11-24 11:00:16
 categories: sitepoint
-image: /images/backgrounds/5167441629_ee4b0f9d84_o.jpg
+background: 5167441629_ee4b0f9d84_o.jpg
+strapline: Fancy pants show off. 
 ---
 
 In a big move for me, I've started writing articles for <a href="http://sitepoint.com">Sitepoint.com</a>. My first featured piece is <a href="http://www.sitepoint.com/migrating-team-sass/">Migrating a Team to Sass</a>, where I talk about... migrating a team to Sass. (There are no surprises in that title).

@@ -1,10 +1,11 @@
 ---
-layout: post
+layout: page
 title:  "Welcome to Jekyll"
 date:   2015-05-11 11:00:16
 categories: jekyll update
-image: /images/backgrounds/4557296397_2cb6ae55db_o.jpg
-strapline: What the hell is going on?
+background: 4557296397_2cb6ae55db_o.jpg
+strapline: What the hell is this?
+
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

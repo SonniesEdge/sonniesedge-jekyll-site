@@ -3,7 +3,8 @@ layout: post
 title:  "Inlining critical CSS"
 date:   2014-10-27 11:00:16
 categories: css
-image: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+background_external: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+strapline: Sticking some nitro up your CSS.
 ---
 
 Lately I've been playing with <a href="https://github.com/filamentgroup/loadCSS">LoadCSS</a> from Filament Group. It's a wonderful system for asynchronously loading CSS, therefore removing a blocking resource from your page loads.

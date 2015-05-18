@@ -3,12 +3,21 @@ layout: page
 title: About
 permalink: /about/
 inverse: false
-image: /images/backgrounds/templehoff.jpg
+background: jjones1.jpg
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I'm a pretty late entrant into the web game, having started as a web developer in 2012. But I've been in touch with the web and technology for most of my life, while working as a graphics designer in private business and technology trainer and VLE admin at educational institutions. 
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Here's a list of random facts:
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
-
+- I'm a keen horserider
+- I read. A lot.
+- I build electionic things.
+- I build bicycles.
+- Then I ride them around a lot.
+- I brew beer and mead. 
+- I'm a big gay.
+- My accent confuses many people. 
+- I have voluntary control of my [tensor tympani muscles](http://en.m.wikipedia.org/wiki/Tensor_tympani_muscle)
+- I'm a photographer
+- I'm a bit of a leftie. Well, more of an techno-anarchist/anarcho-communist. But practically I'm bourgasie scum. 

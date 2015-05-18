@@ -88,4 +88,12 @@
     }
 
 
+    .inverse & .article__title { 
+
+            @include breakpoint($small) {
+                color: #000;
+            }
+               
+    }
+
 }

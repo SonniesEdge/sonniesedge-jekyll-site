@@ -3,11 +3,8 @@ layout: page
 title: Blog posts
 permalink: /blog/
 inverse: false
-image: /assets/tokyo.jpg
+background: 5590370206_1ff1a7e7a9_o.jpg
 ---
-
-
-
 
 <ul>
 {% for post in site.posts %}
@@ -17,7 +14,7 @@ image: /assets/tokyo.jpg
 </div>
 <div class="post__meta">{{ post.date | date: "%b %-d, %Y" }}</div>
 </div>
-{% endfor %} %}
+{% endfor %}
 </ul>
 
 
