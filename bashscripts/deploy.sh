@@ -17,7 +17,7 @@ if [ $# -eq 0 ]
         elif [ $2 == "go" ]
           then
             echo "Running actual deploy"
-            exec ga-update.sh
+            (exec ./ga-update.sh)
             cd ..
             gulp build
             cd bashscripts
