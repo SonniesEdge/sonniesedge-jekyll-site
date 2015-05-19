@@ -4,7 +4,7 @@
 MYTMP=/tmp/
 
 # SAVE analytics.js HERE
-INSTALL_IN=~/Sites/sonniesedge.co.uk/public/sites/all/themes/basic/
+INSTALL_IN=$(greadlink -f $PWD/../source/)
 
 # RESOURCE URLS
 GOOGLE_GA_URL=http://www.google-analytics.com/analytics.js
@@ -26,5 +26,7 @@ cp -r $MYTMP/analytics.js $INSTALL_IN
 
 # RETURN TO OLDPWD
 cd $OLDPWD
+
+echo "Installed Google Analytics sscript to $INSTALL_IN/analytics.js"
 
 exit 0;

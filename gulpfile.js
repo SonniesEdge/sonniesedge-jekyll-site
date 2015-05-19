@@ -104,4 +104,5 @@ gulp.task('watch', ['browser-sync'], function () {
 
 
 gulp.task('default', ['sass']);
+gulp.task('build', ['images-bg']);
 

@@ -9,12 +9,18 @@ if [ $# -eq 0 ]
       if [[ -z $2 ]]
         then
           echo "Running dry-run"
-          # grunt deploytoprod
+          (exec ./ga-update.sh)
+          cd ..
+          gulp build
+          cd bashscripts
           rsync --dry-run -az --force --delete --stats --exclude-from=rsync_exclude.txt -e "ssh -p22" ../_build/ charlie@sonniesedge.co.uk:/data/sites/uk.co.sonniesedge/htdocs
         elif [ $2 == "go" ]
           then
             echo "Running actual deploy"
-            # grunt deploytoprod
+            exec ga-update.sh
+            cd ..
+            gulp build
+            cd bashscripts
             rsync -az --force --delete --stats --exclude-from=rsync_exclude.txt -e "ssh -p22" ../_build/ charlie@sonniesedge.co.uk:/data/sites/uk.co.sonniesedge/htdocs
         else
           2echo $ERRORSTRING;
