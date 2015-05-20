@@ -20,6 +20,6 @@ Here's a list of random facts:
 - I'm a big gayer. 
 - My accent confuses people. I've been accused of being Scottish, Irish, American and Swedish.
 - I have voluntary control of my [tensor tympani muscles](http://en.m.wikipedia.org/wiki/Tensor_tympani_muscle)
-- I [take photographs]().
+- I [take photographs](https://flickr.com/photos/sonniesedge).
 - "Well, you do have more than a touch of the German techno-anarchist about you".
 - Yes, I'm a dirty leftie. 
