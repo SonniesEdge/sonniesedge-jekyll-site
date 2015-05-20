@@ -10,14 +10,16 @@ I'm a pretty late entrant into the web game, having started as a web developer i
 
 Here's a list of random facts:
 
-- I'm a keen horserider
+- I jump on the back of horses and ride them. 
 - I read. A lot.
-- I build electionic things.
+- I build electronic things.
 - I build bicycles.
 - Then I ride them around a lot.
 - I brew beer and mead. 
-- I'm a big gay.
-- My accent confuses many people. 
+- Then I drink them.
+- I'm a big gayer. 
+- My accent confuses people. I've been accused of being Scottish, Irish, American and Swedish.
 - I have voluntary control of my [tensor tympani muscles](http://en.m.wikipedia.org/wiki/Tensor_tympani_muscle)
-- I'm a photographer
-- I'm a bit of a leftie. Well, more of an techno-anarchist/anarcho-communist. But practically I'm bourgasie scum. 
+- I [take photographs]().
+- "Well, you do have more than a touch of the German techno-anarchist about you".
+- Yes, I'm a dirty leftie. 
