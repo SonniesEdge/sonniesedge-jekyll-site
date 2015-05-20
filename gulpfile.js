@@ -98,8 +98,7 @@ gulp.task('browser-sync', ['jekyll-rebuild','images-bg'], function() {
 
 // Watch for changes
 gulp.task('watch', ['browser-sync'], function () {
-    gulp.watch(['source/**/*.html'], ['sass-rebuild']);
-    gulp.watch(['source/**/*.md','source/_theme/stylesheets/*.scss'], ['sass-rebuild']);
+    gulp.watch(['source/**/*.html', 'source/**/*.md', 'source/_theme/stylesheets/*.scss'], ['sass-rebuild']);
 })
 
 
