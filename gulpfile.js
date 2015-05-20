@@ -49,13 +49,13 @@ gulp.task('images-bg', ['images-pages'], function () {
 });
 
 gulp.task('images-pages', ['images-posts'], function () {
-  gulp.src('source/_assets/pages/**/*.{jpg,png}')
+  gulp.src('source/_assets/pages/**/*.{jpg,png,gif}')
     .pipe(gulp.dest('_build/images/pages/'));
 });
 
 
 gulp.task('images-posts', ['sass-rebuild'], function () {
-  gulp.src('source/_assets/posts/**/*.{jpg,png}')
+  gulp.src('source/_assets/posts/**/*.{jpg,png,gif}')
     .pipe(gulp.dest('_build/images/posts/'));
 });
 
