@@ -2,7 +2,7 @@
 layout: post
 title:  "Making this site open"
 date:   2014-10-28 11:00:16
-background_external: http://www.nasa.gov/sites/default/files/styles/full_width_feature/public/images/507898main_PIA04866-full_full.jpg?itok=-PEuatuS
+background: photo-1428591501234-1ffcb0d6871f.jpg
 strapline: I'm such a generous soul.
 ---
 

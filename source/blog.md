@@ -3,7 +3,7 @@ layout: page
 title: Blog posts
 permalink: /blog/
 inverse: false
-background: 5590370206_1ff1a7e7a9_o.jpg
+background: photo-1429305336325-b84ace7eba3b.jpg
 ---
 
 <ul>

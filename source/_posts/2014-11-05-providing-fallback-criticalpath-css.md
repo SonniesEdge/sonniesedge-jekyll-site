@@ -3,7 +3,7 @@ layout: post
 title:  "Providing a fallback for critical-path CSS"
 date:   2014-11-05 11:00:16
 categories: css criticalpath
-background_external: http://www.blastr.com/sites/blastr/files/mars.jpg
+background: b3ed8fdf.jpg
 strapline: tl;dr make sure you do it.
 ---
 

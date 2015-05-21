@@ -3,7 +3,7 @@ layout: post
 title:  "Inlining critical CSS"
 date:   2014-10-27 11:00:16
 categories: css
-background_external: http://dodho.com/wp-content/uploads/2013/04/Midnight-at-the-Boneyard1.jpg
+background: photo-1415639636295-61ae91a98b39.jpg
 strapline: Sticking some nitro up your CSS.
 ---
 
