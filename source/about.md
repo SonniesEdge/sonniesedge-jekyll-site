@@ -6,6 +6,9 @@ inverse: false
 background: photo-1419064642531-e575728395f2.jpg
 ---
 
+
+> Who's Charlie?
+
 I'm a pretty late entrant into the web game, having started as a web developer in 2012. But I've been in touch with the web and technology for most of my life, while working as a graphics designer in private business and technology trainer and VLE admin at educational institutions. 
 
 Here's a list of random facts:
