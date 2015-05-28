@@ -6,21 +6,14 @@ inverse: false
 background: photo-1419064642531-e575728395f2.jpg
 ---
 
+If you define me by the way that I sell my labour, I'm a front-end web developer, specialising in performance, design systems, architecting beautifully-written Sass and creating sustainable build processes. I speak at events, write about the web and am generally considered pretty darned alright at what I do. I'm currently at BBC News, where I've just spent six months building the 2015 election site.
 
-I'm a pretty late entrant into the web game, having started as a web developer in 2012. But I've been in touch with the web and technology for most of my life, while working as a graphics designer in private business and technology trainer and VLE admin at educational institutions. 
+I'm a late entrant into the web game, having only started as a web developer in 2012. But I've been in touch with the web and technology for most of my life, while working as a graphics designer in private business and technology trainer and VLE admin at educational institutions.
 
-Here's a list of random facts:
+If you define me as a *person* and by my life outside work, then I'm a [horse riding](/about/horseriding/), [photography-taking](https://flickr.com/photos/sonniesedge), bike riding, beer drinking, feminist leftie; a dirty gay woman, with her head always buried in a book.
 
-- I [jump on the back of horses](/about/horseriding/) and ride them. 
-- I read. A lot.
-- I build electronic things.
-- I build bicycles.
-- Then I ride them around a lot.
-- I brew beer and mead. 
-- Then I drink them.
-- I'm a big gayer. 
-- My accent confuses people. I've been accused of being Scottish, Irish, American and Swedish.
-- I have voluntary control of my [tensor tympani muscles](http://en.m.wikipedia.org/wiki/Tensor_tympani_muscle)
-- I [take photographs](https://flickr.com/photos/sonniesedge).
-- "Well, you do have more than a touch of the German techno-anarchist about you".
-- Yes, I'm a dirty leftie. 
+I'm moving from [London to Berlin](/blog/berlin/) soon, so check up on that.
+
+Bonus fact: I have voluntary control of my [tensor tympani muscles](http://en.m.wikipedia.org/wiki/Tensor_tympani_muscle).
+
+Best quote: "Well, you do have more than a touch of the German techno-anarchist about you".
